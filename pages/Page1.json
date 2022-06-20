@@ -8,7 +8,7 @@
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1197,
+          "rightColumn": 814,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
@@ -24,10 +24,49 @@
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0,
-          "children": []
+          "children": [
+            {
+              "widgetName": "Input1",
+              "displayName": "Input",
+              "iconSVG": "/formbuilderui/static/media/icon.9f505595.svg",
+              "topRow": 9,
+              "bottomRow": 13,
+              "parentRowSpace": 10,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 12.53125,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 14,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultText"
+                }
+              ],
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "l3836y5cec",
+              "isRequired": false,
+              "rightColumn": 34,
+              "widgetId": "q2x54wa3wg",
+              "isVisible": true,
+              "label": "",
+              "version": 2,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "regex": "",
+              "iconAlign": "left",
+              "defaultText": "{{appsmith.store.accesstoken}}"
+            }
+          ]
         },
         "layoutOnLoadActions": [],
         "widgetNames": [
+          "Input1",
           "MainContainer"
         ],
         "validOnPageLoadActions": true,
